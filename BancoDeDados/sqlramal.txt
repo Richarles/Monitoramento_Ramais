@@ -1,0 +1,10 @@
+create database monitoramento;
+use monitoramento;
+
+CREATE TABLE ramal(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    numero int NOT NULL,
+    nome varchar(50) NOT NULL,
+    ip varchar(50) NOT NULL,
+    status varchar(50) NOT NULL
+);
